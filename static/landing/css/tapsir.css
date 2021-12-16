@@ -1,0 +1,41 @@
+.tapsirLogo {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
+.tapsirNav {
+    height: 60px;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+
+}.tapsirLogo {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
+.tapsirLoginButton {
+    width: 130px;
+    height: 35px;
+    background-color: #ff3c73;
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.5s;
+}
+.tapsirLoginButton:hover {
+    outline: none;
+    background-color: #1ce6b0;
+    color: #ff3c73;
+}
+.tapsirLoginButton:focus {
+    outline: none;
+
+}

@@ -1,0 +1,41 @@
+{
+  "common_timetable": {
+    "SH_TS_H uusgeh": "Шинэ цагийн хуваарь үүсгэх",
+    "TS_H uusgeh": "Цагийн хуваарь үүсгэх",
+    "TS_H_N oruuln uu": "Цагийн хуваарийн нэрийг оруулна уу.",
+    "Ajillah odrood": "Ажиллах өдрүүд",
+    "Davaa": "Даваа",
+    "Mygmar": "Мягмар",
+    "Lhagva": "Лхагва",
+    "Purev": "Пүрэв",
+    "Baasan": "Баасан",
+    "Bymba": "Бямба",
+    "Nym": "Ням",
+    "Ehleh tsag": "Эхлэх цаг",
+    "Duusah tsag": "Дуусах цаг",
+    "Ajiltan": "Ажилтан",
+    "Buh_A songoh": "Бүх ажилчдыг сонгох",
+    "Ajilchid_A_T haih": "Ажилчдыг албан тушаалаар хайх",
+    "Ajilchdig oruulna uu": "Ажилчдыг оруулна уу.",
+    "Bolih": "Болих",
+    "Vvsgeh": "Үүсгэх",
+    "Tsagiin_H_B baina": "Цагийн хуваарь байхгүй байна.",
+    "Tsagiin_H_N oruulnu": "Цагийн хуваарийн нэрийг оруулна уу.",
+    "Tsagiin huviaraa oruulnu": "Цагийн хуваарийг оруулна уу.",
+    "Ajilchdig oruulnu": "Ажилчдыг оруулна уу.",
+    "Ajilchid": "Ажилчид",
+    "Oorchloh": "Өөрчлөх",
+    "Ustgah": "Устгах",
+    "Amrana": "Амрана",
+    "Ehleh tsag": "Эхлэх цаг",
+    "Duusah tsag": "Дуусах цаг",
+    "Tsagiin huviar oorchloh": "Цагийн хуваарь өөрчлөхөд ирцийн бүртгэлийн мэдээлэлд өөрчлөлт орохгүйг анхаарна уу!",
+    "Shinechleh": "Шинэчлэх",
+    "Tsagiin huviar ustgah": "Цагийн хуваарь устгах уу?",
+    "Tiim": "Тийм",
+    "Ugui": "Үгүй",
+
+
+    "AA": ""
+  }
+}

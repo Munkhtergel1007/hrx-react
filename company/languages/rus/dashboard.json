@@ -1,0 +1,33 @@
+{
+    "common_dashboard": {
+        "bolovsrol": "Боловсрол",
+        "turshlagtai": "Туршлагатай",
+        "nas": "нас",
+        "Eregtei": "Эрэгтэй",
+        "Emegtei": "Эмэгтэй",
+        "Diplom": "Диплом",
+        "Baklavar": "Бакалавр",
+        "Magistr": "Магистр",
+        "Doktor": "Доктор",
+        "Busad": "Бусад",
+        "Hooson": "Хоосон",
+        "Surgaltad hamragdsan": "Сургалтанд хамрагдсан",
+        "Hvis": "Хүйс",
+        "Batlagdsan": "Батлагдсан",
+        "BHBui": "Баталгаажуулалт хүлээж буй",
+        "Butsaagdsan": "Буцаагдсан",
+        "Hiigdej bui": "Хийгдэж буй",
+        "Niit": "Нийт",
+        "Guitsetgesen unelgee": "Гүйцэтгэл үнэлгээ",
+        "TS_A_Haasan": "Цэргийн алба хаасан",
+        "Ger bultei": "Гэр бүлтэй",
+        "Irts": "Ирц",
+        "Irsen": "Ирсэн",
+        "Cholootei": "Чөлөөтэй",
+        "Amarsan": "Амарсан",
+        "Ireegui": "Ирээгүй",
+        "Hotsorson": "Хоцорсон",
+        "Ajllahgui": "Ажиллахгүй",
+        "Tsagiin huviar": "Цагийн хуваарьгүй"
+    }
+}

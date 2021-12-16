@@ -1,0 +1,2209 @@
+body {
+    background-color: #f2e8e9;
+}
+.right-menu {
+    max-width: 550px;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+.names input {
+    width: 95%;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+.homeLogo {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
+
+.navbarCont {
+    display: flex;
+    width: 420px;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+.homeNav {
+    height: 60px;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+
+}
+.navButton {
+    margin-left: 20px;
+}
+.bloc-tabs {
+    display: flex;
+    justify-content: space-around;
+}
+.contentTab {
+    display: none;
+}
+.active-content {
+    display: block;
+}
+.active-tabs {
+    background-color: white;
+    border-bottom: 3px solid var(--blue-themes);
+}
+.active-tabs h6 {
+    color: var(--blue-themes) !important;
+}
+.tabs h6 {
+    color: var(--icon-color);
+}
+
+.right-menu .user-menu-content {
+    background-color: #7952b3 !important;
+}
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    height: 60px;
+    padding: 10px !important;
+    width: 200px;
+    justify-content: center;
+}
+.domain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.domain input {
+    width: 52%;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.domain span {
+    background-color: #f2e8e9;
+    height: 50px;
+    width: 143px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    position: absolute;
+}
+#hrx {
+    right: 60px;
+    padding-left: 23px;
+}
+#http {
+    left: 60px;
+}
+.langChanger {
+    width: 150px;
+    padding: 0px 8px;
+}
+
+.domain input:focus {
+    z-index: 1;
+    background-color: white;
+    margin-left: 0px;
+}
+.spacedDiv {
+    height: 150px;
+}
+.termsOfUse {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.termsAnchor {
+    color: #7952B3 !important;
+}
+.termsAnchor:hover {
+    text-decoration: solid #7952B3 !important;
+    cursor: pointer;
+}
+.right-menu .widget:last-child {
+    padding-bottom: 0px !important;
+}
+.termsButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #f2e8e9;
+    border: 2px solid #7952b363;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+.termsButton:focus {
+    outline: none;
+}
+#name2 input {
+    float: right;
+}
+#password input {
+    float: right;
+}
+input:focus {
+    border-color: rgb(63, 191, 198);
+}
+.homeInput {
+    background-color: #f2e8e9;
+}
+select.homeInput {
+    height: 50px;
+    background-color: #f2e8e9;
+    text-align: center;
+    padding-top: 10px;
+}
+select.gender {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1.15em + 2px),
+        calc(100% - 15px) calc(1.15em + 2px), calc(100% - 2.5em) 0.7em;
+    background-size: 6px 6px, 6px 6px, 1.2px 1.5em;
+    background-repeat: no-repeat;
+}
+select.gender:focus {
+    background-image: linear-gradient(
+            45deg,
+            rgb(27, 44, 56) 50%,
+            transparent 50%
+        ),
+        linear-gradient(135deg, transparent 50%, rgb(27, 44, 56) 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 15px) 1.15em, calc(100% - 20px) 1.15em,
+        calc(100% - 2.5em) 0.65em;
+    background-size: 6px 6px, 6px 6px, 1.2px 1.5em;
+    background-repeat: no-repeat;
+}
+.gender option {
+    font-size: 1.05rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 78.182%;
+    bottom: 35px;
+}
+
+button :disabled {
+    background-color: black;
+}
+.submitButton {
+    width: 100% !important;
+    color: #7952b3;
+    background-color: #ffffff;
+    border: 2px solid #7952b3;
+}
+.submitButton:hover {
+    background-color: #7952b3;
+    color: #ffffff;
+}
+.displayState {
+    color: #f8513c;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 25px;
+    font-weight: 500;
+    max-height: 25px;
+}
+button.landingButton:hover {
+    background-color: #7952b3 !important;
+    border: 2px solid #7952b3 !important;
+}
+.returnButton {
+    color: #f8513c;
+    border: 2px solid #f8513c;
+    font-size: 14px;
+    font-weight: 700;
+}
+.returnButton:hover {
+    color: white;
+    background-color: #f8513c;
+}
+.modalButton {
+    height: 50px;
+    width: 100%;
+}
+.returnModalWidth {
+    width: 135px;
+}
+.buttonDiv {
+    width: 78.182%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#loginHeader {
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    max-height: 40px;
+}
+h6 {
+    padding-top: 15px;
+}
+.modalContainer {
+    max-width: 850px;
+    display: flex;
+    flex-direction: row;
+}
+.modalContent {
+    height: 470px;
+    width: 370px !important;
+    padding: 1.5rem;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px solid white;
+}
+.modal {
+    overflow-y:auto;
+  }
+.modalPic {
+    background-color: var(--dark-themes);
+    border-radius: 0px 0px 20px 0px;
+    width: 55%;
+}
+.modalHeader {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.modalFoot {
+    margin-top: 60px;
+    position: absolute;
+    width: 320px;
+    bottom: 10px;
+}
+
+button.loginField {
+    padding: 9px 30px;
+}
+input.loginField {
+    background-color: #f2e8e9;
+    height: 36px;
+    font-size: 14px;
+}
+.loginSpan {
+    font-size: 14px;
+    color: var(--dark-themes);
+    margin: 20px 60px;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+.companiesList {
+    width: 75%;
+    margin: 10px 0px 10px 0px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px 0 #e0e4eb;
+}
+.modal-header .close {
+    padding: 1rem 1.34rem !important;
+}
+.companiesList img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.img img {
+    border-radius: 8px;
+}
+
+.loading {
+    position: absolute;
+    left: 30px;
+}
+.loadingReset {
+    position: absolute;
+    left: 90px;
+}
+.companiesBody {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.companyTitle {
+    padding-left: 2rem;
+    background-color: #7952b3;
+    border-radius: 20px 0px 0px 0px;
+}
+.com-name {
+    font-weight: 600;
+}
+.companyTitle h5 {
+    color: var(--white-color);
+}
+.companiesContent {
+    border-radius: 25px 0px 25px 0px;
+    background-color: var(--white-color);
+}
+.website {
+    /*color: var(--icon-color);*/
+    font-size: 13px;
+    color: dodgerblue;
+}
+/*span.website:hover {*/
+/*    color: dodgerblue;*/
+/*}*/
+.companyTitles {
+    display: flex;
+    padding-left: 10%;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+div.companiesList:hover {
+    cursor: pointer;
+    color: #23232a;
+    background-color: #f2e8e9;
+}
+/* div.companiesList:hover .titles{
+       text-decoration: underline;
+  } */
+.titles {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.close {
+    color: white;
+}
+.close:hover {
+    background-color: var(--blue-themes);
+    color: white;
+    font-weight: 400;
+}
+.close:focus {
+    outline: none;
+}
+.forgotSpan {
+    font-size: 0.9rem;
+    padding: 13px;
+}
+.logOut {
+    color: #f8513c;
+    margin-right: 70px;
+}
+.logOut:hover {
+    background-color: #f8513c !important;
+    outline: none;
+    color: white;
+}
+.hrxButton {
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    height: 35px;
+    width: 125px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+.companyButton {
+    color: #7952b3;
+    margin-right: 35px;
+    width: 175px;
+}
+.companyButton:hover {
+    background-color: #7952b3;
+    color: white !important;
+    cursor: pointer !important;
+}
+/* Reset modal css */
+.modalReset {
+    width: 400px !important;
+}
+.resetBody {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 280px;
+}
+.resetHeader {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.resetButton {
+    width: 298px;
+    margin-left: 50px;
+    bottom: -10px;
+}
+.resetFooter {
+    height: 80px;
+}
+#headerResetModal {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+ {
+    /*New home styling */
+}
+.mainContent {
+    margin-left: 16vw;
+}
+.firstNameHome {
+    font-size: 25px;
+    color: #23232A;
+    font-weight: 500;
+}
+.lastNameHome {
+    font-size: 18px;
+    color: #AEACB8;
+    font-weight: 500
+}
+.navbarHome {
+    height: 75px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    justify-content: flex-end;
+}
+.main {
+    display: flex;
+}
+.notification {
+    height: 35px;
+    padding-top: 7px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    width: 60px;
+    margin-right: 35px;
+}
+
+ion-icon {
+    font-size: 20px;
+    font-weight: 700;
+}
+.sideBar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    transition: 0.4s;
+    height: 100%;
+    background-color: #ffffff;
+}
+.sidebarList2 {
+    display: none;
+}
+.headerTitle {
+    color: #23232a !important;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.avatarDiv {
+    width: 140px;
+}
+#avatarSidebar {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.avatarBorder {
+    object-fit: cover;
+    overflow: hidden;
+    height: 115px;
+    border-radius: 50%;
+}
+
+.widgets {
+    display: flex;
+    max-width: 1250px;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.mainWidget {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 625px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 40px;
+}
+.sideWidgets {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    height: 625px;
+}
+.widgetButton {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.widgetHome1 {
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.widgetHome {
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.avatar {
+    margin-top: 25px;
+    width: 131px;
+    height: 131px;
+    border-radius: 100px;
+    border: 5px solid #27ffba;
+    padding: 3px;
+}
+.avatarMain {
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    box-shadow: -25px 0px #f5f7b2;
+    margin-left: 25px;
+}
+.changingAvatar {
+    background: linear-gradient(130deg, #f2e8e9 40%, #f5f7b2 100%);
+    width: 145px;
+    border-radius: 30px;
+    height: 120px;
+    padding: 50px 70px;
+    color: #23232a;
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+.changingAvatar:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.fields {
+    padding: 10px 30px;
+}
+.inputSpan {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.inputDiv {
+    width: 260px;
+    text-align: center;
+    color: #23232a;
+    height: 35px;
+    padding-top: 6px;
+    border-radius: 25px;
+    background: linear-gradient(130deg, #f2e8e9 40%, #f5f7b2 100%);
+}
+.inputDivDrive {
+    width: 150px;
+    margin-left: 40px;
+    display: flex;
+    margin-right: 35px;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #23232a;
+    height: 32px;
+    align-items: center;
+    border-radius: 25px;
+}
+.fieldRow {
+    display: flex;
+    width: 620px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.fieldItem {
+    margin-right: 50px;
+}
+.editButton {
+    width: auto;
+    padding: 5px 30px 5px 50px;
+    color: #7952b3;
+    border: 2px solid #7952b3;
+    height: 40px;
+}
+.editButton:hover {
+    background-color: #7952b3;
+    color: #ffffff;
+    cursor: pointer;
+}
+.editButton:focus {
+    outline: none;
+}
+.widgetIndex {
+    padding: 45px 40px;
+}
+.inputContainer {
+    width: 260px;
+    height: 35px;
+}
+.driverType {
+    border: 1px solid #23232a;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #23232a;
+    width: 22px;
+    height: 22px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.inputDiv2 {
+    width: 220px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.right-menu .widget {
+    padding: 10px 60px 0 60px !important;
+}
+.sidebarList {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 5px;
+    background-color: #f2e8e9;
+}
+.lists {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    font-weight: 500;
+    width: 310px;
+    position: absolute;
+    color: #23232a;
+    border-left: 7px solid #7952b3;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffffff;
+    margin-left: -3px;
+    box-shadow: 2px 1px 7px #eeeeee;
+}
+.lists:hover {
+    cursor: pointer;
+    color: #7952b3;
+}
+.disabledList {
+    color: rgb(174, 172, 184);
+    border: none !important;
+    background-color: #ffffff;
+    margin-left: 0px;
+    padding-left: 30px;
+    width: 295px;
+    box-shadow: none;
+}
+.sidebarFooter {
+    bottom: 0px;
+    position: absolute;
+}
+.notificationNumber {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #f8513c;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+input.inputDiv {
+    width: 260px;
+    padding: 0px;
+    text-align: center;
+    padding-top: 2px;
+    color: #23232a;
+    border: 1px solid #f5f7b2;
+    height: 35px;
+    border-radius: 25px;
+    background: #f2e8e9 !important;
+}
+select.inputDiv {
+    padding: 4px 0px 4px 0px;
+    width: 260px;
+    text-align: center;
+    color: #23232a;
+    height: 35px;
+    border: 2px solid #f5f7b2;
+    border-radius: 25px;
+    background: #f2e8e9 !important;
+}
+
+.errorSpan {
+    color: #f8513c;
+    font-size: 12px;
+    margin: 15px;
+    font-weight: 500;
+}
+.passwordChange {
+    width: 260px;
+    height: 35px;
+    margin-top: 25px;
+    border: 2px solid #7952b3;
+    border-radius: 25px;
+    color: #7952b3;
+    font-weight: 700;
+}
+.passwordChange:hover {
+    background-color: #7952b3;
+    color: #ffffff;
+}
+.passwordChange:focus {
+    outline: none;
+}
+.returnButtonHome {
+    width: 100px;
+    color: #f8513c;
+    border: 2px solid #f8513c;
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 27px;
+    font-weight: 700;
+    outline: none !important;
+}
+.xButton {
+    color: grey;
+    width: 30px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -1px;
+    height: 30px;
+}
+.xButton:hover {
+    color: #23232a;
+}
+.xButton:focus {
+    outline: none;
+}
+.driverButtons {
+    padding-left: 25px;
+    width: 250px;
+    padding-right: 10px;
+    margin-top: -5px;
+}
+.returnButtonHome:hover {
+    color: #ffffff;
+    background-color: #f8513c;
+    outline: none;
+}
+.returnButton:focus {
+    outline: none;
+}
+.driverButton {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #7952b3;
+    border-radius: 8px;
+    color: #7952b3;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.driverButton:hover {
+    color: #ffffff;
+    background-color: #7952b3;
+}
+.driverButton:focus {
+    outline: none;
+}
+.sidebarButton {
+    font-size: 24px;
+    background-color: #ffffff;
+    width: 60px;
+    color: #23232a;
+    height: 35px;
+    padding-top: 2px;
+    padding-left: 18px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-radius: 15px;
+    display: none;
+}
+.sidebarButton:hover {
+    color: #ffffff !important;
+    background-color: #7952b3;
+    cursor: pointer;
+}
+.sidebarButtonX {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 25px;
+    top: 70px;
+    left: 70px;
+    padding-top: 1px;
+    padding-left: 1px;
+    display: none;
+}
+.backButton {
+    color: #f8513c;
+    background-color: #ffffff;
+    border: 2px solid #f8513c;
+    height: 40px;
+}
+.backButton:hover {
+    color: #ffffff !important;
+    background-color: #f8513c;
+}
+.usernameHome {
+    font-size: 32px;
+    color: #23232A;
+    font-weight: 700;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.backButton:focus {
+    outline: none !important;
+}
+.bloodDiv {
+    padding: 4px 0px 4px 10px !important;
+}
+.passwordRow {
+    font-weight: 700;
+    margin: 25px auto 5px -10px;
+}
+.tabFont {
+    font-size: 14px;
+}
+
+
+
+ {/*HRX new landing--------------------------------------- */}
+.hrxHome {
+    background: url("../../static/images/hrx-home.png") center center /
+        cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.listBackground {
+    height: 720px;
+    width: 500px;
+    border-radius: 0px 40px 40px 0px;
+    background-color: #f2e8e985;
+    margin-top: 60px;
+}
+.hrxContact {
+    color: #23232a;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 85px;
+    width: 630px;
+    height: 90px;
+    border-radius: 100px 0px 0px 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        rgba(245, 247, 178, 0.8) 58%,
+        rgba(121, 82, 179, 0.8) 110%
+    );
+}
+.development {
+    width: 680px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    background-color: #a3de0296;
+    border-radius: 0px 20px 20px 0px;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 170px;
+    display: flex;
+    align-items: center;
+    transition: ease-out 0.5s;
+}
+.development:hover {
+    width: 710px;
+    padding-left: 200px;
+    background-color: #a3de02d8;
+}
+button:disabled {
+    color: grey;
+    background-color: #f2e8e9;
+    border: 2px solid grey;
+}
+button:disabled:hover {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.mainButtonHome {
+    position: absolute;
+    top: 500px;
+    right: 300px;
+    width: 500px;
+    height: 110px;
+}
+.freeBanner {
+    width: 330px;
+    height: 60px;
+    font-size: 31px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 6px 90px;
+    border-radius: 25px 0px 0px 25px;
+    background-color: #a3de0296;
+}
+.signUpButton {
+    height: 60px;
+    width: 370px;
+    color: #23232a;
+    border-radius: 50px;
+    font-size: 22px;
+    position: absolute;
+    margin-left: 225px;
+    font-weight: 500;
+    bottom: 20px;
+    transition: 0.6s;
+    z-index: 1;
+}
+.signUpButton:hover {
+    background: linear-gradient(
+        135deg,
+        rgba(121, 82, 179, 1) -20%,
+        rgba(245, 247, 178, 1) 100%
+    );
+    color: #ffffff;
+}
+h3.secTitle {
+    position: absolute;
+    top: 190px;
+    right: 150px;
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+}
+h1.secTitle {
+    font-size: 66px;
+    color: #ffffff;
+    font-weight: 400;
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    text-shadow: #343a4080 3px 3px 8px;
+}
+h4.secTitle {
+    color: #23232a;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.signUpButton::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    background: linear-gradient(
+        135deg,
+        rgba(121, 82, 179, 1) -20%,
+        rgba(245, 247, 178, 1) 100%
+    );
+    z-index: -1;
+    transition: 0.8s;
+}
+.signUpButton:hover::before {
+    background: #7952b3;
+    right: 0;
+}
+.signUpButton:focus {
+    outline: none;
+}
+.listItemHome {
+    height: 24px;
+    display: flex;
+
+    align-items: center;
+    background-color: #f5f7b2;
+    border-radius: 0px 15px 15px 0px;
+    color: #23232a;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.doneList {
+    margin-left: 70px;
+    padding-right: 90px;
+}
+.notDoneList {
+    margin-top: 10px;
+    margin-left: 110px;
+    padding-right: 50px;
+}
+.listIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #17a2b8;
+    border-radius: 15px;
+    margin-left: -24px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactMargin {
+    margin-left: 60px;
+}
+@media (max-width: 1600px) {
+    .listBackground {
+        height: 700px;
+        width: 480px;
+        margin-top: 30px;
+    }
+    .listItemHome {
+        height: 21px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .listIcon {
+        width: 25px;
+        height: 25px;
+        margin-left: -15px;
+    }
+    .doneList {
+        margin-left: 60px;
+    }
+    .notDoneList {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .hrxContact {
+        font-size: 20px;
+        padding-left: 65px;
+        width: 560px;
+        height: 60px;
+    }
+    .development {
+        width: 580px;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 150px;
+    }
+    .development:hover {
+        width: 610px;
+        padding-left: 180px;
+    }
+    .mainButtonHome {
+        position: absolute;
+        top: 400px;
+        right: 240px;
+        width: 400px;
+        height: 110px;
+    }
+    .freeBanner {
+        width: 250px;
+        height: 50px;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 6px 110px;
+    }
+    .signUpButton {
+        height: 50px;
+        width: 300px;
+        font-size: 20px;
+        margin-left: 200px;
+        bottom: 35px;
+    }
+
+    h3.secTitle {
+        top: 150px;
+        right: 100px;
+        font-size: 32px;
+    }
+    h1.secTitle {
+        font-size: 48px;
+        right: 120px;
+        top: 200px;
+    }
+    .mainContent {
+        margin-left: 18vw;
+    }
+    .bloodDiv {
+        padding: 4px 0px 4px 0px !important;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .mainWidget {
+        height: 760px;
+    }
+    .widgets {
+        margin-top: 30px;
+    }
+    .inputDivDrive {
+        margin-left: 55px;
+    }
+    .sideWidgets {
+        flex-direction: row;
+        width: 900px;
+        position: absolute;
+        top: 525px;
+        align-items: center;
+        justify-content: flex-start;
+        height: 200px;
+        margin-left: 0px;
+        background: none;
+        border-radius: 30px;
+    }
+    .widgetButton {
+        width: 200px;
+        margin-left: 620px;
+        position: absolute;
+        margin-top: -800px;
+    }
+    .widgetHome {
+        width: 350px;
+        padding-left: 25px;
+        height: 180px;
+        border-radius: 25px;
+        background: none;
+    }
+    .widgetHome1 {
+        width: 350px;
+        padding-left: 65px;
+        height: 180px;
+        border-radius: 25px;
+        background: none;
+    }
+    .spacer {
+        width: 145px;
+    }
+    .passwordRow {
+        margin: 175px auto 5px -10px;
+    }
+    .inputSpan {
+        font-size: 18;
+    }
+    .fieldRow {
+        display: flex;
+        width: 620px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .driverButtons {
+        padding-left: 40px;
+        width: 250px;
+        padding-right: 10px;
+        margin-top: -5px;
+    }
+    .editButton {
+        width: auto;
+        height: 35px;
+    }
+    .backButton {
+        height: 35px;
+    }
+    .widgetIndex {
+        padding: 0px;
+    }
+    .inputDiv2 {
+        min-width: 260px;
+        margin-bottom: 15px;
+    }
+
+    .errorSpan {
+        color: #f8513c;
+        font-size: 12px;
+        margin: 15px;
+        font-weight: 500;
+    }
+    .passwordChange {
+        width: 260px;
+        height: 35px;
+        margin-top: 25px;
+        border: 2px solid #7952b3;
+        border-radius: 25px;
+        color: #7952b3;
+        font-weight: 700;
+    }
+    .passwordChange:hover {
+        background-color: #7952b3;
+        color: #ffffff;
+    }
+    .passwordChange:focus {
+        outline: none;
+    }
+    .returnButtonHome {
+        width: 90px;
+        height: 35px;
+    }
+    .xButton {
+        margin-left: 120px;
+    }
+}
+@media (max-width: 1200px) {
+    .hrxLogo {
+        width: 70px !important;
+    }
+    .mainContent {
+        margin-left: 4vw;
+    }
+    .sidebarSpan {
+        display: none;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    .firstNameHome {
+        font-size: 15px;
+    }
+    .lastNameHome {
+        font-size: 13px;
+    }
+    .mainWidget {
+        height: 740px;
+    }
+    .widgets {
+        margin-top: 30px;
+    }  
+    .sideWidgets {
+        top: 520px;
+    }
+    .avatar {
+        margin-top: 65px;
+        width: 81px;
+        height: 81px;
+        border-radius: 50%;
+        border: 3px solid #27ffba;
+        padding: 2px;
+    }
+   
+    .avatarBorder {
+        object-fit: cover; 
+        overflow: hidden;
+        height: 71px;
+        border-radius: 50%;
+    }
+    #avatarSidebar {
+        width: 100%;
+        height: 100%;
+    }
+    .sideBar {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100px;
+        background-color: #ffffff;
+    }
+    .sidebarList {
+        display: none;
+    }
+    .sidebarList2 {
+        display: block;
+    }
+    .lists {
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+        margin-top: 40px;
+        padding-right: 40px;
+        align-items: center;
+        font-weight: 500;
+        width: 107px;
+        margin-left: -50px;
+    }
+    .lists:hover {
+        cursor: pointer;
+        color: #7952b3;
+    }
+    .disabledList {
+        color: rgb(174, 172, 184);
+        width: 100px;
+        box-shadow: none;
+    }
+    .sidebarFooter {
+        bottom: 0px;
+        position: absolute;
+    }
+    .widgetHome {
+        width: 350px;
+        padding-left: 25px;
+        height: 180px;
+        border-radius: 25px;
+        background: none;
+    }
+    .widgetHome1 {
+        width: 350px;
+        padding-left: 65px;
+        height: 180px;
+        border-radius: 25px;
+        background: none;
+    }
+    .spacer {
+        width: 145px;
+    }
+    .passwordRow {
+        margin: 175px auto 5px -10px;
+    }
+    .inputSpan {
+        font-size: 16px;
+    }
+    .fieldRow {
+        display: flex;
+        width: 620px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .fieldItem {
+        margin-right: 50px;
+    }
+}
+@media (max-width: 1400px) {
+    .contactMargin {
+        margin-left: 40px;
+    }
+    h4.secTitle {
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    .listBackground {
+        height: 590px;
+        width: 440px;
+        margin-top: 20px;
+    }
+    .listItemHome {
+        height: 18px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .doneList {
+        margin-left: 60px;
+    }
+    .notDoneList {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .hrxContact {
+        font-size: 18px;
+        padding-left: 65px;
+        width: 500px;
+        height: 60px;
+    }
+    .development {
+        width: 580px;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 150px;
+    }
+    .development:hover {
+        width: 610px;
+        padding-left: 180px;
+    }
+    .mainButtonHome {
+        position: absolute;
+        top: 400px;
+        right: 240px;
+        width: 400px;
+        height: 110px;
+    }
+    .freeBanner {
+        width: 250px;
+        height: 50px;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 6px 110px;
+    }
+    .signUpButton {
+        height: 50px;
+        width: 300px;
+        font-size: 19px;
+        margin-left: 200px;
+        bottom: 35px;
+    }
+
+    h3.secTitle {
+        top: 140px;
+        right: 100px;
+        font-size: 30px;
+    }
+    h1.secTitle {
+        font-size: 46px;
+        right: 120px;
+        top: 190px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .listBackground {
+        height: 540px;
+        width: 420px;
+        margin-top: 20px;
+    }
+    .listItemHome {
+        height: 16px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .listIcon {
+        width: 20px;
+        height: 20px;
+        margin-left: -15px;
+    }
+    .doneList {
+        margin-left: 50px;
+    }
+    .notDoneList {
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    .hrxContact {
+        font-size: 17px;
+        padding-left: 40px;
+        width: 450px;
+        height: 50px;
+    }
+    .development {
+        width: 480px;
+        height: 40px;
+        font-size: 16px;
+        padding-left: 120px;
+    }
+    .development:hover {
+        width: 510px;
+        padding-left: 150px;
+    }
+    .mainButtonHome {
+        top: 290px;
+        right: 200px;
+        width: 330px;
+        height: 100px;
+    }
+    .freeBanner {
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 4px 70px;
+    }
+    .signUpButton {
+        height: 40px;
+        width: 240px;
+        font-size: 18px;
+        margin-left: 130px;
+        bottom: 40px;
+    }
+    h4.secTitle {
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    h3.secTitle {
+        top: 120px;
+        right: 70px;
+        font-size: 20px;
+    }
+    h1.secTitle {
+        font-size: 36px;
+        right: 120px;
+        top: 160px;
+    }
+}
+@media (max-width: 1024px) {
+    .hrxHome {
+        height: 100%;
+    }
+    .tabFont {
+        font-size: 12px;
+    }
+    .listBackground {
+        height: 550px;
+        width: 420px;
+        margin-top: 290px;
+    }
+    .listItemHome {
+        height: 16px;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .listIcon {
+        width: 22px;
+        height: 22px;
+        margin-left: -15px;
+    }
+    .doneList {
+        margin-left: 50px;
+    }
+    .notDoneList {
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    .hrxContact {
+        font-size: 15px;
+        padding-left: 40px;
+        width: 410px;
+        height: 40px;
+        border-radius: 50px 0px 0px 0px;
+        transform: rotate(270deg);
+        right: -185px;
+        top: 245px;
+    }
+    .development {
+        display: none;
+    }
+    .mainButtonHome {
+        top: 290px;
+        right: 100px;
+        width: 330px;
+        height: 100px;
+    }
+    .freeBanner {
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 4px 70px;
+    }
+    .signUpButton {
+        height: 40px;
+        width: 220px;
+        font-size: 17px;
+        margin-left: 130px;
+        bottom: 40px;
+    }
+    h4.secTitle {
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    h3.secTitle {
+        top: 160px;
+        right: 80px;
+        font-size: 20px;
+    }
+    h1.secTitle {
+        font-size: 28px;
+        right: 100px;
+        top: 200px;
+    }
+    .listIcon {
+        width: 25px;
+        height: 25px;
+        margin-left: -15px;
+    }
+}
+@media (max-width: 980px) {
+    .hrxLogo {
+        width: 70px !important;
+    }
+    
+    .height65 {
+        height: 70px !important;
+    }
+    .mainContent {
+        margin-left: 5vw;
+    }
+    .titleHome {
+        margin-bottom: 160px;
+        margin-left: 40px;
+    }
+    .mainWidget {
+        height: 1385px;
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerTitle {
+        margin-top: 70px;
+        margin-left: 120px;
+    }
+    .namesHome {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .widgets {
+        margin-top: 30px;
+    }  
+    .sideWidgets {
+        top: 860px;
+        margin-left: -190px;
+        flex-direction: column;
+    }
+    .avatarDiv {
+        position: absolute;
+        margin-top: 50px;
+    }
+    .sideBar {
+        min-width: 100px;
+        background-color: #ffffff;
+    }
+    .sidebarList {
+        display: none;
+    }
+    .sidebarList2 {
+        display: block;
+    }
+    .lists {
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+        font-weight: 500;
+        width: 107px;
+        margin-left: -50px;
+    }
+    .inputDiv {
+        font-size: 14px;
+        padding-top: 6px;
+        height: 32px;
+    }
+    input.inputDiv {
+        height: 32px;
+        padding-top: 0px;
+    }
+    select.inputDiv {
+        height: 32px;
+        padding-top: 3px;
+    }
+    .disabledList {
+        color: rgb(174, 172, 184);
+        width: 100px;
+        box-shadow: none;
+    }
+    .sidebarFooter {
+        bottom: 0px;
+        position: absolute;
+    }
+    .widgetHome {
+        width: 300px;
+        height: 180px;
+        padding-left: 10px;
+    }
+    .widgetHome1 {
+        width: 300px;
+        height: 180px;
+        padding-left: 10px;
+    }
+    .widgetButton {
+        width: 140px;
+        margin-left: 100px;
+        margin-top: 300px;
+        background: none;
+    }
+    .spacer {
+        width: 145px;
+    }
+    .passwordRow {
+        margin: 400px auto 5px -10px;
+    }
+    .inputSpan {
+        font-size: 15px;
+    }
+    .fieldRow {
+        display: flex;
+        width: 400px;
+        height: 125px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .fieldItem {
+        margin-right: 0px;
+        height: 60px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .navbarCont {
+        width: 200px;
+    }
+    .companyButton {
+        width: 120px;
+    }
+    .right-menu .user-menu-content {
+        width: 60px;
+        height: 60px;
+        border-width: 2px;
+    }
+    .modalButton {
+        height: 40px;
+        width: 250px;
+    }
+    .signUpButton {
+        width: 200px;
+        height: 35px;
+        bottom: 50px;
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    .freeBanner {
+        width: 150px;
+        height: 35px;
+        font-size: 16px;
+        padding: 4px 40px;
+    }
+    .buttonDiv {
+        width: 70%;
+    }
+    .buttons {
+        width: 70%;
+    }
+    .mainButtonHome {
+        top: 260px;
+        right: 100px;
+        width: 330px;
+        height: 100px;
+    }
+    .homeNav {
+        padding: 0px 3%;
+    }
+    
+    .widget-text {
+        font-size: 12px;
+    }
+    .fontsizeSmall {
+        font-size: 13px;
+    }
+    .displayState {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    
+    .button--l {
+        max-height: 40px;
+    }
+    .returnButton {
+        max-height: 40px;
+        padding: 0px 15px;
+        font-size: 10px;
+        width: 90px;
+    }
+    .homeInput {
+        max-height: 40px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .modalPic {
+        display: none;
+    }
+
+    .domain span {
+        background-color: #f1f2ec;
+        height: 40px;
+        width: 90px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        position: absolute;
+        font-size: 12px;
+    }
+    .domain input {
+        margin-left: 0px;
+    }
+    .fieldItem {
+
+    }
+    #http {
+        padding-right: 15px;
+        width: 25%;
+        padding-left: 0px;
+    }
+    #hrx {
+        padding-left: 15px;
+        width: 25%;
+        padding-left: 0px;
+    }
+    .listBackground {
+        width: 400px;
+    }
+    .notDoneList {
+        margin-left: 70px;
+    }
+    .doneList {
+        margin-left: 35px;
+    }
+    h4.secTitle {
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    h3.secTitle {
+        top: 120px;
+        right: 80px;
+        font-size: 20px;
+    }
+    h1.secTitle {
+        font-size: 28px;
+        right: 100px;
+        top: 160px;
+    }
+    .tabs {
+        width: 150px;
+        height: 60px;
+        padding: 0px !important;
+    }
+    .spacedDiv {
+        height: 60px;
+    }
+    select {
+        padding-top: 5px;
+    }
+    h6 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .spacedDiv {
+        height: 60px;
+    }
+    .modalContent {
+        border-radius: 20px 0px 20px 0px !important;
+        margin: 40px auto;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .mainButtonHome {
+        top: 260px;
+        right: 100px;
+        width: 330px;
+        height: 100px;
+    }
+    .signUpButton {
+        width: 200px;
+        height: 35px;
+    }
+    h4.secTitle {
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    h3.secTitle {
+        top: 120px;
+        right: 70px;
+        font-size: 18px;
+    }
+    h1.secTitle {
+        font-size: 24px;
+        right: 85px;
+        top: 160px;
+    }
+    .hrxHomeHeader {
+        font-size: 26px;
+    }
+    .sidebarButton {
+        display: inline-block;
+    }
+    .sidebarButtonX {
+        display: block;
+    }
+    .minimizeDiv {
+        width: 270px;
+        margin: 0px auto;
+        font-size: 13px !important;
+    }
+    .hrxLogo {
+        width: 70px !important;
+    }
+    
+    .height65 {
+        height: 70px !important;
+    }
+    .mainContent {
+        margin-left: -7vw;
+    }
+    .notification {
+        margin-right: 10px;
+    }
+    .avatarMain {
+        width: 90px;
+        height: 90px;
+        border-radius: 20px;
+        box-shadow: -20px 0px #f5f7b2;
+    }
+    .changingAvatar {
+        width: 110px;
+        border-radius: 20px;
+        height: 90px;
+        padding: 32px 45px;
+        margin-left: 5px;
+    }
+    .companyButton {
+        margin-right: 10px;
+    }
+    .logOut {
+        margin-right: 10px;
+    }
+    .titleHome {
+        margin-bottom: 130px;
+        margin-left: 65px;
+        font-size: 14px;
+    }
+    .usernameHome {
+        font-size: 24px;
+    }
+    .inputDiv {
+        width: 230px;
+    }
+    .inputDiv2 {
+        min-width: 230px;
+    }
+    .mainWidget {
+        width: 340px;
+        height: 1300px;
+        padding: 20px;
+    }
+    .headerTitle {
+        margin-top: 70px;
+        margin-left: 120px;
+    }
+    .namesHome {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .widgets {
+        margin-top: 30px;
+    }  
+    .sideWidgets {
+        top: 790px;
+        margin-left: -255px;
+        flex-direction: column;
+    }
+    hr {
+        width: 75%;
+    }
+    .avatarDiv {
+        position: absolute;
+        margin-top: 50px;
+    }
+    .sideBar {
+        min-width: 100px;
+        background-color: #ffffff;
+        display: none;
+    }
+    .sidebarList {
+        display: none;
+    }
+    .sidebarList2 {
+        display: block;
+    }
+    .xButton {
+        margin-left: 105px;
+    }
+    .inputContainer {
+        width: 230px;
+        height: 32px;
+    }
+    .inputDiv {
+        font-size: 14px;
+        padding-top: 6px;
+        height: 32px;
+    }
+    input.inputDiv {
+        width: 230px;
+        height: 32px;
+        padding-top: 0px;
+    }
+    select.inputDiv {
+        padding: 4px 0px 4px 85px;
+        width: 230px;
+        height: 32px;
+        padding-top: 3px;
+    }
+    .disabledList {
+        color: rgb(174, 172, 184);
+        width: 100px;
+        box-shadow: none;
+    }
+    .sidebarFooter {
+        bottom: 0px;
+        position: absolute;
+    }
+    .widgetHome {
+        width: 300px;
+        height: 180px;
+        padding-left: 10px;
+    }
+    .widgetHome1 {
+        width: 300px;
+        height: 180px;
+        padding-left: 10px;
+    }
+    .widgetButton {
+        width: 140px;
+        margin-left: -52px;
+        margin-top: 300px;
+        background: none;
+    }
+    .inputDivDrive {
+        margin-left: 40px;
+    }
+    .spacer {
+        width: 145px;
+    }
+    .passwordRow {
+        margin: 375px auto 1px 65px;
+    }
+    .inputSpan {
+        font-size: 15px;
+    }
+    .fieldRow {
+        display: flex;
+        width: 400px;
+        height: 125px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .fieldItem {
+        margin-right: 0px;
+        height: 60px;
+    } 
+    
+}
+
+
+
+@media (max-width: 460px) {
+    .hrxHome {
+        height: 100%;
+    }
+    .contactMargin {
+        margin-left: 15px;
+    }
+    .listBackground {
+        height: 530px;
+        width: 385px;
+        margin-top: 300px;
+    }
+    .listIcon {
+        width: 22px;
+        height: 22px;
+        margin-left: -15px;
+    }
+    .hrxContact {
+        padding-left: 30px;
+        top: 200px;
+        font-size: 11px;
+        width: 320px;
+        right: -140px;
+    }
+    .mainButtonHome {
+        top: 260px;
+        right: 30px;
+        width: 300px;
+    }
+    .freeBanner {
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
+        padding: 4px 40px;
+    }
+    .navbarCont {
+        width: 160px;
+    }
+    .navButton {
+        margin-left: -20px;
+    }
+    .signUpButton {
+        height: 35px;
+        width: 180px;
+        font-size: 14px;
+        margin-left: 80px;
+        bottom: 50px;
+    }
+    h4.secTitle {
+        padding-left: 20px;
+        padding-top: 14px;
+        font-size: 16px;
+    }
+    h3.secTitle {
+        top: 160px;
+        right: 55px;
+        font-size: 13px;
+    }
+    h1.secTitle {
+        font-size: 20px;
+        right: 60px;
+        top: 190px;
+    }
+}
+@media (max-width: 400px) {
+    body {width: 400px;
+    }
+    .hrxHomeHeader {
+        margin-top: 5px;
+        font-size: 22px;
+    }
+    .mainContent {
+        margin-left: 0vw;
+    }
+    .sidebarButton {
+        display: inline-block;
+        top: 70px;
+        left: 10px;
+    }
+    .sidebarButtonX {
+        display: block;
+    }
+    .navbarHome {
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+    .headerTitle > h5 {
+        margin-left: 35px;
+    }
+    .headerTitle {
+        margin-left: 135px;
+    }
+    
+}
+@media (max-width: 380px) {
+    .hrxHome {
+        height: 130%;
+    }
+}

@@ -1,0 +1,225 @@
+@import "../../node_modules/antd/dist/antd.less";
+
+@border-radius-base: 4px; // major border radius
+@primary-color: #1A3452; // primary color for all components
+@tooltip-bg: #1A3452;
+@color-1 : #1A3452;
+@color-2 : #95a89c;
+@color-3 : #e7cdac;
+@input-addon-bg : #6286aa;
+
+
+
+.ellipsisText(){
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scrollBar(){
+  &::-webkit-scrollbar-track {
+    background: #ececec;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: fade(@tooltip-bg, 50%);
+    border: 2px solid rgba(255, 255, 255, 0);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: fade(@tooltip-bg, 100%);
+  }
+}
+
+.scrollBarX(@width){
+  &::-webkit-scrollbar {
+    width: @width;
+    background: #ececec;
+    border-left: 1px solid #dedede;
+  }
+  .scrollBar()
+}
+.scrollBarY(@height){
+  &::-webkit-scrollbar {
+    height: @height;
+    background: #ececec;
+    border-left: 1px solid #dedede;
+  }
+  .scrollBar()
+}
+
+@font-face {
+  font-family: ManBold;
+  src: url(../font/manrope/static/Manrope-Bold.ttf);
+}
+
+@font-face {
+  font-family: ManExtBold;
+  src: url(../font/manrope/static/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: ManExtLight;
+  src: url(../font/manrope/static/Manrope-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: ManLight;
+  src: url(../font/manrope/static/Manrope-Light.ttf);
+}
+
+@font-face {
+  font-family: ManMed;
+  src: url(../font/manrope/static/Manrope-Medium.ttf);
+}
+
+@font-face {
+  font-family: ManReg;
+  src: url(../font/manrope/static/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: ManSemi;
+  src: url(../font/manrope/static/Manrope-SemiBold.ttf);
+}
+
+body, html {
+  scroll-behavior: smooth;
+  font-family: 'ManReg', sans-serif;
+}
+.ant-layout.ant-layout-has-sider {
+  flex-direction: row;
+}
+ body .main-layout {
+   min-height: 100vh;
+   .site-layout .site-layout-background {
+     padding: 0 16px;
+     background: #fff;
+   }
+   .ant-layout-sider {
+     z-index: 10;
+     box-shadow: 2px 0 6px 0 rgba(0,0,0,.16);
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+   }
+ }
+ .ant-layout, .ant-layout * {
+   box-sizing: border-box;
+ }
+.ant-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  background: #f0f2f5;
+}
+body .main-layout .site-layout .hrx-content {
+  z-index: 10;
+  min-height: 280px;
+  margin: 20px 20px 0 20px;
+}
+body .main-layout .ant-layout-sider-trigger {
+  background-color: @primary-color;
+  color: white;
+  height: 32px;
+  line-height: 32px;
+}
+.sider-logo{
+  text-align: center;
+  margin-bottom: 10px;
+  //margin-top: 15px;
+  h3{
+    font-size: 20px;
+    //color: @primary-color;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all .2s;
+    background-color: @primary-color;
+    color: white;
+    padding: 10px 0;
+  }
+}
+body .main-layout .site-layout .site-layout-background .logout-button {
+  float: right;
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+
+.mediaLibModalBody {
+  height: calc(100vh - 300px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px 0px;
+  .scrollBarX(5px);
+
+
+  .mediaLists {
+
+    .gridItem {
+      width: -moz-calc(33% - 10px);
+      width: -webkit-calc(33% - 10px);
+      width: -o-calc(33% - 10px);
+      width: calc(33% - 10px);
+      padding: 10px;
+      border-radius: 5px;
+      float: left;
+      text-align: center;
+      cursor: pointer;
+      margin: 5px;
+      border: 2px solid transparent;
+      background: #eee;
+      position: relative;
+      img {
+        object-fit: contain;
+        height: 100px;
+        width: 100%;
+      }
+      &:hover, &.selected {
+        border: 2px solid @primary-color;
+        transition: .2s;
+      }
+      .selectedMedia {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255,255,255,0.5);
+
+        ion-icon {
+          font-size: 46px;
+          color: @primary-color;
+        }
+      }
+    }
+
+    &.list {
+      box-shadow: none;
+      .gridItem {
+        width: -moz-calc(100% - 10px);
+        width: -webkit-calc(100% - 10px);
+        width: -o-calc(100% - 10px);
+        width: calc(100% - 10px);
+        text-align: left;
+        span {
+          display: block;
+          width: 100%;
+          .ellipsisText()
+        }
+      }
+    }
+
+  }
+}
+
+@import 'daidi';
+@import 'mega';
+@import 'ankhaa';
+@import 'bulgaa';
+@import 'bayaraa';
